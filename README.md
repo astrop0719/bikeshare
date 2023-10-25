@@ -1,14 +1,14 @@
-Creating modifications to the bikeshare.py code for evaluating bikeshare data sets for Chicago, New York City and Washington.
+Creating modifications to the _bikeshare.py_ code for evaluating bikeshare data sets for Chicago, New York City and Washington.
 
 Applicable Files:
-- bikeshare.py
+- _bikeshare.py_
   + python code for evaluating limited BikeShare data sets for Chicago, New York City and Washington (DC)
   + actively editing this python code in this share
 - BikeShare city data files
-  + chicago.csv, new_york_city.csv, washington.csv
-  + input to the bikeshare.py code
+  + _chicago.csv_, _new_york_city.csv_, _washington.csv_
+  + input to the _bikeshare.py_ code
   + not being edited in this share.
-  + identified in the .gitignore
+  + identified in the _.gitignore_ file
 
 Project Objectives;
 #1 Popular times of travel
