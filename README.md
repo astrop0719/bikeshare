@@ -38,3 +38,9 @@ All three of the data files contain the same core six (6) columns:
 The Chicago and New York City files also have the following two columns:
 - Gender
 - Birth Year
+
+User Input/Options:
+- Filter by city: New York City, Chicago or Washington
+- Filter by month: January, February, March, April, May, June or
+Any, if no preference
+- Filter by day of week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Any if no preference
