@@ -186,23 +186,6 @@ def who(df):
       print('   - most common bikeshare user birth year =', most_common_year)
     except KeyError:
       print("   >>> most common bikeshare user birth year unavailable for selected month <<<")
-def show(df):
-    """print lines of bikeshare data"""
-    show_data = input("\nWould you like to see 5 rows of data? yes or no.\n")
-    start_show = 0
-    show_length = 5
-    end_show = start_show + show_length
-    while True:
-        if show_data.lower() == 'no':
-            break
-        elif show_data.lower() == 'yes':
-            print("\n5 rows of bikeshare data.\n")
-            print(df[start_show:end_show])
-            start_show = start_show + show_length
-            end_show = end_show + show_length
-            show_data = input("\nShow 5 more lines of data? yes or no.\n")
-            if show_data.lower() == 'no':
-                break        
 def main():
     while True:
         city, month, day = user_input()
@@ -211,7 +194,6 @@ def main():
         where(df)
         how_long(df)
         who(df)
-        show(df)
         restart = input('\nRestart? yes or no.\n')
         if restart.lower() != 'yes':
             break
