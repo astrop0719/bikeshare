@@ -42,7 +42,7 @@ def user_input():
         (str) month - month to filter by or 'Any' for no month filter
         (str) day - day of week to filter by or 'Any' for no day filter
     """
-    print('Ready to assess city bikeshare data?\n')
+    print('Ready to assess city bikeshare data from 2017?\n')
     # user input city (Chicago, New York City, Washington).
     while True:
       city = input("Filter by New York City, Chicago or Washington?\n").lower()
