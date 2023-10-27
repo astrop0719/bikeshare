@@ -47,7 +47,7 @@ def user_input():
     while True:
       city = input("Filter by New York City, Chicago or Washington?\n").lower()
       if city not in ('new york city', 'chicago', 'washington'):
-        print("Oops! Please re-enter city\n")
+        print("Please re-enter city\n")
         continue
       else:
         break
@@ -55,7 +55,7 @@ def user_input():
     while True:
       month = input("Filter by January, February, March, April, May, June\n or enter Any if you have no preference?\n").lower()
       if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'any'):
-        print("Oops! Please re-enter a month or Any if none preferred\n")
+        print("Please re-enter a month or Any if none preferred\n")
         continue
       else:
         break
@@ -63,7 +63,7 @@ def user_input():
     while True:
       day = input("\nFilter by day of week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday\n or enter Any if you have no preference?\n").lower()
       if day not in ('sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'any'):
-        print("Oops! Please enter day of week or Any if none preferred")
+        print("Please enter day of week or Any if none preferred")
         continue
       else:
         break
